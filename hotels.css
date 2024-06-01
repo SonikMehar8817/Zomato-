@@ -1,0 +1,149 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+html,
+body {
+  height: 100%;
+  width: 100%;
+}
+.container {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+}
+nav {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
+  width: 75%;
+  height: 50px;
+}
+nav h1{
+    color: black;
+}
+.login{
+    color: black;
+}
+
+.search_bar {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  height: 40px;
+  width: 62%;
+  border: 1px solid black;
+}
+
+.search_bar div select {
+  width: 170px;
+  border: none;
+}
+
+#search_res {
+  width: 370px;
+  border: none;
+}
+
+.logos {
+  height: 20px;
+  width: 20px;
+}
+
+.citys {
+  width: 75%;
+  display: flex;
+}
+
+.container2 {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+}
+.citys {
+  display: flex;
+  height: 40px;
+  text-align: center;
+  gap: 5px;
+}
+.citys div a {
+  text-decoration: none;
+  color: rgb(54, 49, 49);
+}
+
+.container3 {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+
+.main {
+  height: 300px;
+  width: 75%;
+  border: 1px solid black;
+  background: url("Photos/z13.jpeg") no-repeat center center/cover;
+  border-radius: 5px;
+}
+
+.box {
+  /* display: flex;
+    flex-direction: column;
+    justify-content: flex-start; */
+  margin-top: 120px;
+  height: 55%;
+  width: 50%;
+  background-color: black;
+  opacity: 0.8;
+  border-radius: 5px;
+}
+.box p,
+h1,
+div {
+  color: white;
+}
+
+.buttons {
+  position: absolute;
+  top: 18%;
+  right: 15%;
+}
+
+.buttons button {
+  background-color: black;
+  opacity: 0.8;
+  color: white;
+  padding: 10px;
+  border-radius: 20px;
+  border: none;
+}
+
+.container4 {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+
+.card_container{
+    margin-top: 40px;
+    width: 75%;
+    display: grid;
+    gap: 40px;
+    grid-template-columns: repeat(4, 1fr);
+}
+
+.cards{
+    overflow: hidden;
+    background-color: rgb(250, 247, 243);
+    border-radius: 10px;
+}
+
+.cards img{
+    height: 200px;
+    width: 240px;
+
+}
+.cards h3,span,p{
+    color: black;
+}
+
